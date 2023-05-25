@@ -1,0 +1,44 @@
+.header, .one, .footer {
+    background-color: #1F2937;
+}
+
+.one h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.one-left-side p, .header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.two h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+}
+
+.banner {
+    background-color: #3882F6;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
