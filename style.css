@@ -1,5 +1,49 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    margin: 0;
+}
+
 .header, .one, .footer {
     background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 200px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 250px;
+    background-color: #E5E7EB;
+}
+
+.three span {
+    align-self: flex-end;
+    font-weight: 800;
+}
+
+.header ul {
+    display: flex;
+    gap: 15px;
 }
 
 .one h1 {
@@ -14,6 +58,25 @@
     text-decoration: none;
 }
 
+.one-left-side, .one-right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.one-left-side {
+    align-items: start;
+}
+
+.one-right-side {
+    align-items: end;
+}
+
+.one img {
+    width: 300px;
+    height: 200px;
+}
+
 li {
     list-style-type: none;
 }
@@ -23,22 +86,86 @@ li {
     color: #F9FAF8;
 }
 
-.two h2{
+.two {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 250px 50px 250px;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture figcaption {
+    text-align: center;
+}
+
+.picture img {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+}
+
+.two h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
 }
 
-.button2 {
+.button1, .button2 {
     background-color: #3882F6;
     color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.button1 {
+    margin-top: 10px;
+}
+
+.button2 {
     border-color: white;
 }
 
 .banner {
     background-color: #3882F6;
+    color: white;
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-radius: 5px;
 }
 
-.three {
-    background-color: #E5E7EB;
+.banner-left {
+    flex: 1;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.three h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 20px;
 }
